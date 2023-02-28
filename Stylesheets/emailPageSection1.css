@@ -1,0 +1,195 @@
+/* Remove margin for entire page on email default page */
+body {
+  margin: 0;
+}
+
+/* Style entire email default page */
+.email-defaultPage {
+  background-color: #eaeaea;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: none;
+  overflow: hidden;
+}
+
+/* Style email top section container to display App name, logo and User name */
+.email-topSection {
+  display: inline-grid;
+  grid-template-columns: 80vw 21vw;
+  background-color: black;
+}
+
+/* Style app logo */
+.email-logo {
+  grid-column: 1/2;
+  text-align: center;
+  color: white;
+}
+
+/* Style user name container */
+.email-userName {
+  grid-column: 2/3;
+  text-align: center;
+}
+
+/* Style user name */
+.topSection-userName {
+  font-size: 1.8vw;
+  color: white;
+  font-weight: lighter;
+  margin-top: 2.3vw;
+}
+
+/* Style entire email body section */
+#email-bodySection {
+  display: inline-grid;
+  grid-template-columns: 23vw 30vw 48vw;
+  height: 86.4vh;
+}
+
+/* Style section1 for menu bar */
+.section1 {
+  grid-column: 1/2;
+  width: auto;
+  background-color: #eaeaea;
+}
+
+/* Style section2 to style selected menu type mail list */
+.section2 {
+  grid-column: 2/3;
+  background-color: #eaeaea;
+}
+
+/* Style section3 for selected mail */
+.section3 {
+  grid-column: 3/4;
+  background-color: #eaeaea;
+}
+
+/* Style section1 hamburger and compose button container */
+.section1-buttonContainer {
+  display: inline-grid;
+  grid-template-columns: 5vw 15vw;
+  margin-top: 2vw;
+  margin-left: 2.5vw;
+}
+
+/* Style hamburger button */
+.menu-button {
+  height: 3.3vw;
+  width: 3.3vw;
+  grid-column: 1/2;
+  margin-left: 1vw;
+}
+
+/* Style compose button container */
+.compose-button {
+  background-color: #407aff;
+  padding: 0.5vw;
+  border-radius: 0.5vw;
+  grid-column: 2/3;
+  width: fit-content;
+  margin-left: 1vw;
+}
+
+/* Style compose logo icon */
+.compose-logo {
+  height: 2vw;
+  width: 2vw;
+  margin-left: 0.5vw;
+}
+
+/* Style compose text */
+.compose-text {
+  font-size: 1.3vw;
+  font-weight: 400;
+  color: white;
+}
+
+/* Style section1 menu bar container */
+.section1-menutab--container {
+  margin-top: 4vw;
+  display: flex;
+  flex-direction: column;
+  background-color: #407aff;
+  align-items: center;
+  height: 22vw;
+  width: 15vw;
+  margin-left: 3.8vw;
+  border-radius: 2vw;
+  justify-content: space-evenly;
+}
+
+/* Style individual menu bar */
+.menu-container {
+  display: inline-grid;
+  height: 2.2vw;
+  width: 10vw;
+  grid-template-columns: 3vw 4vw 3vw;
+  background-color: white;
+  border: 1px solid transparent;
+}
+
+/* Style menu bar on hover */
+.menu-container:hover {
+  background-color: #cedbfb;
+  border: 1px solid black;
+}
+
+/* Style individual menu icon */
+.menu-icon {
+  height: 1.2vw;
+  width: 1.2vw;
+  grid-column: 1/2;
+  margin-top: 0.4vw;
+  margin-left: 0.5vw;
+}
+
+/* Style individual menu name */
+.menu-name {
+  font-size: 1.2vw;
+  font-weight: lighter;
+  grid-column: 2/3;
+  text-align: center;
+  margin-top: 0.3vw;
+}
+
+/* Style indivdual unread mail count */
+.menu-count {
+  font-size: 0.7vw;
+  font-weight: lighter;
+  grid-column: 3/4;
+  margin-top: 0.7vw;
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+.changeGridOrder {
+  display: inline-grid;
+  grid-template-columns: 40vw 65vw;
+  grid-template-rows: 6vw 25vw;
+}
+.section2Change {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  height: 10vw;
+  width: 25vw;
+  z-index: 1;
+}
+.section3Change {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  height: 10vw;
+  width: 40vw;
+  margin-left: 5vw;
+}
+.composePage {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin-left: 7vw;
+}

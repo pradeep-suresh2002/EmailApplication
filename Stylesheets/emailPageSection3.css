@@ -1,0 +1,127 @@
+/* Style section3 entire container */
+.section3-container {
+  display: inline-grid;
+  margin-left: 2.3vw;
+  grid-template-columns: 35vw 5vw;
+  margin-top: 2vw;
+  border: 1px solid black;
+  padding: 1vw;
+  border-radius: 1vw;
+  background-color: white;
+}
+
+/*Style  Section3 selected mail container */
+.section3-contentPage {
+  display: none;
+}
+
+/* Style section3 mail subject */
+.section3-subject {
+  font-size: 2vw;
+  font-weight: 600;
+  grid-column: 1/2;
+  margin-left: 1.5vw;
+}
+
+/* Style section3 trash icon */
+.section3-trashicon {
+  height: 2vw;
+  width: 2vw;
+  grid-column: 2/3;
+  margin-left: 1vw;
+}
+
+/* Style section3 mail body content container */
+.section3-mailcontent--container {
+  background-color: white;
+  margin-top: 2vw;
+  height: 30vw;
+  margin: 2.3vw;
+  width: 42vw;
+  padding: 0.5vw;
+  border-radius: 2vw;
+  overflow-y: scroll;
+}
+
+/* Style section3 mail body content scrollbar container */
+.section3-mailcontent--container::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Style section3 mail body content scrollbar track */
+.section3-mailcontent--container::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* Style section3 mail body content scrollbar thumb */
+.section3-mailcontent--container::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+/* Style section3 mail body content scrollbar thumb on hover */
+.section3-mailcontent--container::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(96, 95, 95);
+}
+
+/* Style section3 username and date container */
+.section3-mail-topsection {
+  display: inline-grid;
+  grid-template-columns: 20vw 20vw;
+  position: sticky;
+}
+
+/* Style section3 username */
+.section3-userName {
+  grid-column: 1/2;
+  font-size: 1.8vw;
+  margin-left: 2vw;
+  margin-top: 0.5vw;
+}
+
+/* Style section3 date */
+.section3-mail-date {
+  grid-column: 2/3;
+  font-size: 1.2vw;
+  text-align: end;
+  margin-right: 2vw;
+  margin-top: 0.9vw;
+}
+
+/* Style section3 To content container */
+.section3-mail--Tocontent {
+  font-size: 1.5vw;
+  margin-top: 1.2vw;
+  margin-left: 2vw;
+}
+
+/* Style section3 body content container */
+.section3-mail-bodycontent {
+  font-size: 1.2vw;
+  margin-top: 2vw;
+  margin-left: 2vw;
+  padding-right: 0.5vw;
+}
+/* Empty message icon */
+.empty-message {
+  height: 26vw;
+  width: 26vw;
+  margin-left: 10vw;
+  margin-top: 3vw;
+}
+/* Empty message text */
+.empty-message--text1 {
+  font-size: 2vw;
+  margin-left: 18vw;
+  display: inline-block;
+  margin-bottom: 1vw;
+  font-weight: bold;
+}
+.empty-message--text2 {
+  font-size: 2vw;
+  display: inline-block;
+  margin-left: 19vw;
+  font-weight: lighter;
+}

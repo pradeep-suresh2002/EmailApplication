@@ -1,0 +1,30 @@
+/* Style signup entire page section */
+#signup-page--section{
+    display: none;
+}
+/* Style user first name for signup page */
+.user-firstName{
+    height: 1.5vw;
+    width: 10vw;
+    font-size: 1.5vw;
+    padding: 0.7vw;
+    margin-left: 7vw;
+    margin-bottom: 3vw;
+}
+/* Style user last for signup page */
+.user-lastName{
+    margin-left: 3vw;
+    height: 1.5vw;
+    width: 10vw;
+    font-size: 1.5vw;
+    padding: 0.7vw;
+}
+/* Style back to login text in signup page */
+.back-to-login{
+    font-size: 1.3vw;
+    color: #ffff;
+    margin-left: 16.7vw;
+    text-decoration: underline;
+}
+
+

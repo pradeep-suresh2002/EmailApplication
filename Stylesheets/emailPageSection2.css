@@ -1,0 +1,131 @@
+/* Style entire section2 style */
+.section2 {
+  overflow-y: scroll;
+  padding: 1vw;
+  height: 38vw;
+}
+/* .compose {
+  background-color: yellow;
+} */
+
+/* Style selected menu type list container */
+.selected-items {
+  font-size: 2vw;
+  border-bottom: 1px solid black;
+  padding: 0.5vw;
+  text-align: center;
+  background-color: #407aff;
+  color: white;
+  border-radius: 1.5vw 1.5vw 0vw 0vw;
+}
+
+/* Style scrollbar for secton2 overflow */
+.section2::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Style track of section2 scrollbar */
+.section2::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* Style thumb of section2 thumb */
+.section2::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+/*Style setion2 thumb on hover  */
+.section2::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(96, 95, 95);
+}
+
+/* Style entire section2 body container */
+.section2-bodyContainer {
+  margin-top: 1.5vw;
+  border: 1px solid black;
+  border-radius: 1.5vw;
+}
+
+/* Style section2 entire mail list container */
+.mail-list--container {
+  display: flex;
+  flex-direction: column;
+  padding: 1vw;
+  border-bottom: 1px solid black;
+}
+/* .mail-display--container {
+  display: none;
+} */
+.empty-section {
+  height: 25vw;
+  width: 25vw;
+  display: none;
+}
+.empty-box {
+  margin-left: 6vw;
+  margin-top: 2vw;
+  height: 15vw;
+  width: 12vw;
+}
+.no-message {
+  font-size: 2vw;
+  margin-left: 8vw;
+  font-weight: 600;
+}
+/* Style mail list on hover effect */
+.mail-list--container:hover {
+  background-color: #cedbfb;
+}
+
+/* Style last element of mail list */
+.mail-list--containerLast:hover {
+  background-color: #cedbfb;
+  border-radius: 0vw 0vw 1.5vw 1.5vw;
+}
+
+/* Style mail list last container */
+.mail-list--containerLast {
+  display: flex;
+  flex-direction: column;
+  padding: 1vw;
+}
+
+/* Style mail list user name */
+.mail-userName {
+  font-size: 1.7vw;
+  font-weight: lighter;
+  margin-bottom: 0.5vw;
+}
+
+/* Style mail list subject container*/
+.mail-subject--container {
+  margin-bottom: 0.5vw;
+}
+
+/* Style mail list subject content */
+.mail-subject {
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 1.35vw;
+  text-overflow: ellipsis;
+}
+
+/* Style mail body content container */
+.mail-content--container {
+  margin-bottom: 0.5vw;
+}
+
+/* Style mail body content */
+.mail-content {
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 1.35vw;
+  text-overflow: ellipsis;
+}

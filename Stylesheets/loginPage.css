@@ -1,0 +1,192 @@
+/* Importing all the stylesheets */
+@import url("../Stylesheets/signupPage.css");
+@import url("../Stylesheets/emailPageSection1.css");
+@import url("../Stylesheets/emailPageSection2.css");
+@import url("../Stylesheets/emailPageSection3.css");
+@import url("../Stylesheets/composePage.css");
+
+/*Importing external font style*/
+@font-face {
+  font-family: Roboto;
+  src: url("../Assests/font/Roboto-Regular.ttf");
+}
+/*Setting up the font style in root*/
+:root {
+  --font-style: Roboto;
+}
+/* Importing Oleo Script for Post box First letter */
+@font-face {
+  font-family: Oleo script;
+  src: url("../Assests/font/OleoScript-Regular.ttf");
+}
+/* Importing Clicker Script for Post box remaining letters */
+@font-face {
+  font-family: Clicker Script;
+  src: url("../Assests/font/ClickerScript-Regular.ttf");
+}
+/* Set entire body property */
+body {
+  overflow-x: hidden;
+}
+/* Login page entire section property */
+/* #login-page--section {
+  display: none;
+} */
+/* App logo and name container */
+#app-logo--container {
+  display: inline-block;
+  margin-left: 16vw;
+}
+/* App logo icon */
+.app-logo {
+  height: 3vw;
+  width: 3vw;
+}
+/* App name entire container */
+.app-name {
+  display: inline-block;
+}
+/* Style logo name first letter */
+.app-name-firstLetter {
+  font-family: "Clicker Script";
+  font-size: 5vw;
+}
+/* Style logo name remaining letters */
+.app-name-otherLetters {
+  font-family: "Oleo Script";
+  font-size: 2vw;
+}
+/* Style entire login page container to flex box */
+.loginSignup-container {
+  display: flex;
+  flex-direction: row;
+}
+/* Style login page gif container */
+.login-page--gifContainer {
+  margin-top: 1vw;
+  margin-left: 5vw;
+  float: right;
+}
+/* Set height and width of gif */
+.login-page--gif {
+  height: 39vw;
+  width: 47vw;
+}
+/* Style login box entire container */
+.login-container {
+  float: left;
+  margin-left: 3vw;
+  border-radius: 6vw;
+  background-color: #407aff;
+  height: 38vw;
+  width: 40vw;
+}
+/* Style login text heading */
+.login-heading {
+  font-size: 3vw;
+  font-weight: 400;
+  color: #ffff;
+  margin-left: 7vw;
+  margin-top: 5vw;
+}
+/* Style login textbox for email id and password container */
+.login-textBox {
+  height: 1.5vw;
+  width: 25vw;
+  font-size: 1.5vw;
+  padding: 0.7vw;
+}
+/* Style user input for mail id */
+.email {
+  margin-left: 7vw;
+}
+/* Style user id for password */
+.password {
+  margin-left: 7vw;
+  margin-top: 3vw;
+}
+/* Style login button */
+.login-button {
+  background-color: #03c988;
+  border: none;
+  color: #ffff;
+  height: 3vw;
+  width: 20vw;
+  font-size: 1.5vw;
+  font-weight: bolder;
+  margin-top: 3vw;
+  margin-left: 10vw;
+  border-radius: 1vw;
+}
+/* Style new user text */
+.newuser-text {
+  margin-top: 2.5vw;
+  font-size: 1.3vw;
+  color: #ffff;
+  display: inline-block;
+  margin-left: 14vw;
+}
+/* Style new user sign up link */
+.signup-link {
+  margin-right: 1vw;
+  display: inline-block;
+  color: #ffff;
+  font-size: 1.3vw;
+  text-decoration: underline;
+}
+/* Add media query for screen size of minmum 1000 px width and maximum 1400 px width  */
+@media screen and (min-width: 1000px) and (max-width: 1400px) {
+  #app-logo--container {
+    display: inline-block;
+    margin-left: 35vw;
+    margin-top: 2vw;
+  }
+  .app-logo {
+    height: 4vw;
+    width: 4vw;
+  }
+  .loginSignup-container {
+    flex-direction: column-reverse;
+  }
+  .login-page--gifContainer {
+    margin-left: 20vw;
+    margin-bottom: 2vw;
+    display: block;
+  }
+  .login-page--gif {
+    width: 75%;
+    height: min-content;
+  }
+  .login-container {
+    margin-left: 29vw;
+    margin-bottom: 5vw;
+  }
+}
+
+/* Add media query for screen size of minmum 600px width and maximum 999 px width  */
+@media screen and (min-width: 600px) and (max-width: 999px) {
+  #app-logo--container {
+    display: inline-block;
+    margin-left: 33vw;
+    margin-top: 2vw;
+  }
+  .app-logo {
+    height: 4vw;
+    width: 4vw;
+  }
+  .loginSignup-container {
+    flex-direction: column-reverse;
+  }
+  .login-page--gifContainer {
+    margin-left: 20vw;
+    margin-bottom: 2vw;
+    display: block;
+  }
+  .login-page--gif {
+    width: 75%;
+    height: min-content;
+  }
+  .login-container {
+    margin-left: 29vw;
+  }
+}
